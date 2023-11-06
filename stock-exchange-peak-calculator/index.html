@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Listing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="images/website-icon.png">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="collect">
+        <img class="price-icon" src="images/price.png" alt="priceicon">
+        <input class="price" type="number" min="0.10" step="0.01" placeholder="Price of a Lot">
+
+        <img class="number-icon" src="images/number.png" alt="numbericon">
+        <input class="number" type="number" min="1" step="1" placeholder="Number of Lots">
+
+        <button onclick="createTable()" class="calculate">Calculate</button>
+    </div>
+
+    <div class="summary"></div>
+    
+    <div id="table-1"></div>
+
+    <div id="table-2"></div>
+      
+</body>
+</html>
