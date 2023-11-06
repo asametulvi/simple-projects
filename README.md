@@ -1,4 +1,4 @@
-# simple-frontend-projects
+# simple-projects
 
 Simple front-end projects which ı have developed with HTML, CSS and JavaScript
 
