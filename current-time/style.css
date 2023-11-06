@@ -1,0 +1,57 @@
+html, body {
+    background-color: #cfdcfc;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    font-family: "DM sans";
+    color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time {
+    margin-top: -10px;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+}
+
+.hour, .minute, .second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 135px;
+    width: 180px;
+    background-color: #acb4c7;
+    -webkit-box-shadow: 0px 0px 49px -21px rgba(131,144,184,1);
+    -moz-box-shadow: 0px 0px 49px -21px rgba(131,144,184,1);
+    box-shadow: 0px 0px 49px -21px rgba(131,144,184,1);
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+    margin-top: 45px;
+    border-radius: 10px;
+    background-color: #acb4c7;
+}
+
+.divider {
+    margin: 22px 12px 0 13px;
+}
+
+.hour:hover, .minute:hover, .second:hover, .day:hover {
+    color: rgb(207, 220, 252);
+    background-color: #8e94a3;
+    transition-duration: 700ms;
+    -webkit-box-shadow: 0px 0px 30px 8px rgba(126,149,194,1);
+    -moz-box-shadow: 0px 0px 30px 8px rgba(126,149,194,1);
+    box-shadow: 0px 0px 30px 8px rgba(126,149,194,1);
+}
